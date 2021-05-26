@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Debug
+/x64
+/Zeliora/Release
+/Zeliora/Debug
+/Zeliora/x64
+/Release

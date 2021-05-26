@@ -1,0 +1,23 @@
+<Menus>
+	<MainMenu>
+		<MenuItem Path="Start New Game"/>
+		<MenuItem Title="Load Game"/>
+		<MenuItem Title="Options"/>
+		<MenuItem Title="Credits"/>
+	<MainMenu>
+	<InGameMenu>
+		<MenuItem Title="Character"/>
+		<MenuItem Title="Save Game"/>
+		<MenuItem Title="Load Game"/>
+		<MenuItem Title="Options"/>
+	<InGameMenu>
+<Menus>
+
+<MenuTabs>
+	<MenuTab Title="Start New Game">
+	<MenuTab Title="Load Game">
+	<MenuTab Title="Options">
+	<MenuTab Title="Credits">
+	<MenuTab Title="Character">
+	<MenuTab Title="Save Game">
+</MenuTabs>

@@ -1,0 +1,24 @@
+<Characters>
+	<Heroes>
+		<Hero Name="Zed" SpritePath="Heroes/Heroes.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="0" StartRow="0" Frametime="0.1" Health="300" MovementSpeed="200"/>
+		<Hero Name="Kaya" SpritePath="Heroes/Heroes.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="3" StartRow="0" Frametime="0.1" Health="300" MovementSpeed="200"/>
+		<Hero Name="Stig" SpritePath="Heroes/Heroes.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="6" StartRow="0" Frametime="0.1" Health="300" MovementSpeed="200"/>
+		<Hero Name="Kai" SpritePath="Heroes/Heroes.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="0" StartRow="4" Frametime="0.1" Health="300" MovementSpeed="200"/>
+		<Hero Name="Brick" SpritePath="Heroes/Heroes.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="3" StartRow="4" Frametime="0.1" Health="300" MovementSpeed="200"/>
+		<Hero Name="Strife" SpritePath="Heroes/Heroes.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="6" StartRow="4" Frametime="0.1" Health="300" MovementSpeed="200"/>
+	</Heroes>
+	<Enemies>
+		<Guard SpritePath="Enemies/Guards.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="0" StartRow="0" Frametime="0.1" Health="125" AttackRadius="25" Strength="5" MovementSpeed="150"/>
+		<Guard SpritePath="Enemies/Guards.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="3" StartRow="0" Frametime="0.1" Health="140" AttackRadius="25" Strength="3" MovementSpeed="150"/>
+		<Guard SpritePath="Enemies/Guards.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="6" StartRow="0" Frametime="0.1" Health="100" AttackRadius="25" Strength="4" MovementSpeed="150"/>
+		<Guard SpritePath="Enemies/Guards.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="9" StartRow="0" Frametime="0.1" Health="165" AttackRadius="25" Strength="2" MovementSpeed="150"/>
+		<Guard SpritePath="Enemies/Guards.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="0" StartRow="4" Frametime="0.1" Health="130" AttackRadius="25" Strength="3" MovementSpeed="150"/>
+		<Guard SpritePath="Enemies/Guards.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="3" StartRow="4" Frametime="0.1" Health="110" AttackRadius="25" Strength="4" MovementSpeed="150"/>
+		<Guard SpritePath="Enemies/Guards.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="6" StartRow="4" Frametime="0.1" Health="110" AttackRadius="25" Strength="3" MovementSpeed="150"/>
+		<Guard SpritePath="Enemies/Guards.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="9" StartRow="4" Frametime="0.1" Health="120" AttackRadius="25" Strength="5" MovementSpeed="150"/>	
+		<Witch SpritePath="Enemies/Witches.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="0" StartRow="0" Frametime="0.1" Health="80" AttackRadius="25" Strength="2" MovementSpeed="100" ElemType="Fire"/>
+		<Witch SpritePath="Enemies/Witches.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="3" StartRow="0" Frametime="0.1" Health="120" AttackRadius="25" Strength="3" MovementSpeed="100" ElemType="Ice"/>
+		<Witch SpritePath="Enemies/Witches.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="6" StartRow="0" Frametime="0.1" Health="100" AttackRadius="25" Strength="5" MovementSpeed="100" ElemType="Wind"/>
+		<Witch SpritePath="Enemies/Witches.png" SpriteOffset="0" Columns="3" Rows="4" StartColumn="9" StartRow="0" Frametime="0.1" Health="95" AttackRadius="25" Strength="4" MovementSpeed="100" ElemType="Earth"/>
+	</Enemies>
+</Characters>

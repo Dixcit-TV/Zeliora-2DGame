@@ -1,0 +1,13 @@
+<WorldObjects>
+	<Destructibles>
+		<Destructible SpritePath="WorldObjects/Destructibles.png" SpriteOffset="0" Columns="5" Rows="1" StartColumn="0" StartRow="0" Frametime="0.1"/>
+		<Destructible SpritePath="WorldObjects/Destructibles.png" SpriteOffset="0" Columns="5" Rows="1" StartColumn="0" StartRow="1" Frametime="0.1"/>
+		<Destructible SpritePath="WorldObjects/Destructibles.png" SpriteOffset="0" Columns="5" Rows="1" StartColumn="0" StartRow="2" Frametime="0.1"/>
+		<Destructible SpritePath="WorldObjects/Destructibles.png" SpriteOffset="0" Columns="5" Rows="1" StartColumn="0" StartRow="3" Frametime="0.1"/>
+		<Destructible SpritePath="WorldObjects/Destructibles.png" SpriteOffset="0" Columns="5" Rows="1" StartColumn="0" StartRow="4" Frametime="0.1"/>
+		<Destructible SpritePath="WorldObjects/Destructibles.png" SpriteOffset="0" Columns="5" Rows="1" StartColumn="0" StartRow="5" Frametime="0.1"/>
+		<Destructible SpritePath="WorldObjects/Destructibles.png" SpriteOffset="0" Columns="5" Rows="1" StartColumn="0" StartRow="6" Frametime="0.1"/>
+		<Destructible SpritePath="WorldObjects/Destructibles.png" SpriteOffset="0" Columns="5" Rows="1" StartColumn="0" StartRow="7" Frametime="0.1"/>
+		<Destructible SpritePath="WorldObjects/Destructibles.png" SpriteOffset="0" Columns="5" Rows="1" StartColumn="0" StartRow="8" Frametime="0.1"/>
+	</Destructibles>
+</WorldObjects>

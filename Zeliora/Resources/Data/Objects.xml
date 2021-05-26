@@ -1,0 +1,71 @@
+<Objects>
+	<Potions>
+		<Potion />
+		<Potion />
+		<Potion />
+	</Potions>
+	<Armors>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="0" Name="Bronze Armor" Stat="10" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="1" Name="Iron Armor" Stat="12" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="2" Name="Bronze Higher Armor" Stat="16" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="3" Name="Iron Higher Armor" Stat="15" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="4" Name="Bronze Lord Armor" Stat="22" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="5" Name="Iron Lord Armor" Stat="20" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="6" Name="Bronze Knight Armor" Stat="28" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="7" Name="Iron Knight Armor" Stat="24" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="8" Name="King's Armor" Stat="33" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="0" Column="9" Name="Exhalted Armor" Stat="30" ArmorType="body"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="0" Name="Bronze Gauntlet" Stat="3" ArmorType="arms"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="1" Name="Iron Gauntlet" Stat="4" ArmorType="arms"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="2" Name="Bronze Higher Gauntlet" Stat="6" ArmorType="arms"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="3" Name="Iron Higher Gauntlet" Stat="5" ArmorType="arms"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="4" Name="Bronze Lord Gauntlet" Stat="8" ArmorType="arms"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="5" Name="Iron Lord Gauntlet" Stat="7" ArmorType="arms"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="6" Name="Bronze Knight Gauntlet" Stat="9" ArmorType="arms"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="7" Name="Iron Knight Gauntlet" Stat="8" ArmorType="arms"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="8" Name="King's Gauntlet" Stat="11" ArmorType="arms"/>
+		<Armor SpritePath="Armors/Armors.png" Row="1" Column="9" Name="Exhalted Gauntlet" Stat="10" ArmorType="arms"/>		
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="0" Name="Bronze Helmet" Stat="5" ArmorType="helmet"/>
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="1" Name="Iron Helmet" Stat="6" ArmorType="helmet"/>
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="2" Name="Bronze Higher Helmet" Stat="8" ArmorType="helmet"/>
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="3" Name="Iron Higher Helmet" Stat="7" ArmorType="helmet"/>
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="4" Name="Bronze Lord Helmet" Stat="11" ArmorType="helmet"/>
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="5" Name="Iron Lord Helmet" Stat="10" ArmorType="helmet"/>
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="6" Name="Bronze Knight Helmet" Stat="14" ArmorType="helmet"/>
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="7" Name="Iron Knight Helmet" Stat="12" ArmorType="helmet"/>
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="8" Name="King's Helmet" Stat="17" ArmorType="helmet"/>
+		<Armor SpritePath="Armors/Armors.png" Row="2" Column="9" Name="Exhalted Helmet" Stat="15" ArmorType="helmet"/>
+	</Armors>
+	<Weapons>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="0" Name="Dagger Sword" Damage="10" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="1" Name="Iron Sword" Damage="12" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="2" Name="Double Sword" Damage="16" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="3" Name="Refined Sword" Damage="14" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="4" Name="Swordster" Damage="13" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="5" Name="Knight Sword" Damage="19" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="6" Name="Supreme Sword" Damage="21" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="7" Name="Needle Sword" Damage="15" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="8" Name="Lord Sword" Damage="11" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="0" Column="9" Name="Exalted Sword" Damage="25" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="0" Name="Iron Spear" Damage="12" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="1" Name="Refined Spear" Damage="14" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="2" Name="Knight Spear" Damage="15" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="3" Name="Trident Spear" Damage="21" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="4" Name="Silver Spear" Damage="14" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="5" Name="Spearster" Damage="17" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="6" Name="Silver Spearster" Damage="19" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="7" Name="Champion's Spear" Damage="24" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="8" Name="Amber Spear" Damage="20" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="1" Column="9" Name="Diamond Spear" Damage="25" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="0" Name="Iron Double Axe" Damage="14" Range="35"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="1" Name="Iron Axe" Damage="12" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="2" Name="Amber Axe" Damage="15" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="3" Name="Silver Axe" Damage="13" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="4" Name="Emrald Axe" Damage="15" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="5" Name="Gold Axe" Damage="17" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="6" Name="Lumberj'Axe" Damage="19" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="7" Name="Amber Lumberj'Axe" Damage="21" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="8" Name="Kight Axe" Damage="23" Range="25"/>
+		<Weapon SpritePath="Weapons/Weapons.png" Row="2" Column="9" Name="Emerald Knight Axe" Damage="25" Range="25"/>
+	</Weapons>
+</Objects>

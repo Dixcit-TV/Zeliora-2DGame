@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\World">
+      <UniqueIdentifier>{a271f28c-6d68-4a57-be73-e865a46d40e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common">
+      <UniqueIdentifier>{05c2a762-9bc6-4d99-a39b-984487c7a06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Characters">
+      <UniqueIdentifier>{1ddc1360-bd68-4793-8578-b68d8a41e3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Characters\Enemy">
+      <UniqueIdentifier>{a44b094e-f915-47e9-8a06-b58878af088d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Characters\Hero">
+      <UniqueIdentifier>{8518e832-0a82-4999-80fa-15f7cfe97b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects">
+      <UniqueIdentifier>{2ed7002c-d07a-4165-804d-e743ffc6bc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Derived Objects">
+      <UniqueIdentifier>{760e233e-d4a3-4b82-a8d3-3fa72bd6b61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Derived Objects\Armor">
+      <UniqueIdentifier>{ada2a100-7999-4f9d-8c83-7fd236822ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Derived Objects\Weapon">
+      <UniqueIdentifier>{d6e2bc32-0a05-4355-a44e-0965574718e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Characters\Enemy\Derived Enemies">
+      <UniqueIdentifier>{0e61d555-84de-4a76-bf41-1e1801ab38d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\Dungeon">
+      <UniqueIdentifier>{369f3843-5685-4fa1-b2c8-3265d33aef9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common\Sprites">
+      <UniqueIdentifier>{dede4f2e-c358-4cff-869c-25ecc120976d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common\HUD">
+      <UniqueIdentifier>{2f4d6ea6-dd53-488b-925a-a31ce17e9f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common\Menu">
+      <UniqueIdentifier>{bc93ba75-6cd1-4cd1-8322-5cf661691179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common\Menu\MenuScreens">
+      <UniqueIdentifier>{17c183ca-25e5-4950-8d54-e73f7fceda1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common\Menu\MenuScreens\MainMenu">
+      <UniqueIdentifier>{1bf13b96-7037-4591-986b-6be5ffc2c570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common\Menu\MenuScreens\InGameMenu">
+      <UniqueIdentifier>{95a44465-6a56-4186-b394-0f725c071ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common\Managers">
+      <UniqueIdentifier>{6054c5d3-c7ad-4f70-a293-d590b29143f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common\Managers\Singleton">
+      <UniqueIdentifier>{58bc5bb3-c71b-478b-8a3e-3fdd92e157b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common\Menu\MenuScreens\EndMenu">
+      <UniqueIdentifier>{df9283ee-cc5f-4f78-85ab-39d67ac17922}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>Game\World\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonArea.cpp">
+      <Filter>Game\World\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Characters\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Game\Characters\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Game\Objects\Derived Objects\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Game\Objects\Derived Objects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Loot.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Witch.cpp">
+      <Filter>Game\Characters\Enemy\Derived Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard.cpp">
+      <Filter>Game\Characters\Enemy\Derived Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonGenerator.cpp">
+      <Filter>Game\World\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructible.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawn.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteTile.cpp">
+      <Filter>Game\Common\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Game\Common\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game\Common\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>Game\Common\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Game\Common\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Game\Common\Menu\MenuScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Game\Common\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroSelectionScreen.cpp">
+      <Filter>Game\Common\Menu\MenuScreens\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScreen.cpp">
+      <Filter>Game\Common\Menu\MenuScreens\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameMenuScreen.cpp">
+      <Filter>Game\Common\Menu\MenuScreens\InGameMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroInventoryScreen.cpp">
+      <Filter>Game\Common\Menu\MenuScreens\InGameMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsScreen.cpp">
+      <Filter>Game\Common\Menu\MenuScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Game\Common\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LootManager.cpp">
+      <Filter>Game\Common\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Game\Common\Managers\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>Game\Common\Managers\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="EndMenuScreen.cpp">
+      <Filter>Game\Common\Menu\MenuScreens\EndMenu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>Game\World\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonArea.h">
+      <Filter>Game\World\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Characters\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Game\Characters\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Game\Objects\Derived Objects\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Game\Objects\Derived Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Loot.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Witch.h">
+      <Filter>Game\Characters\Enemy\Derived Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.h">
+      <Filter>Game\Characters\Enemy\Derived Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonGenerator.h">
+      <Filter>Game\World\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Destructible.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawn.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteTile.h">
+      <Filter>Game\Common\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Game\Common\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game\Common\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Game\Common\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Game\Common\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Game\Common\Menu\MenuScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Game\Common\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScreen.h">
+      <Filter>Game\Common\Menu\MenuScreens\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroSelectionScreen.h">
+      <Filter>Game\Common\Menu\MenuScreens\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameMenuScreen.h">
+      <Filter>Game\Common\Menu\MenuScreens\InGameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroInventoryScreen.h">
+      <Filter>Game\Common\Menu\MenuScreens\InGameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsScreen.h">
+      <Filter>Game\Common\Menu\MenuScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Game\Common\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LootManager.h">
+      <Filter>Game\Common\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Game\Common\Managers\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Game\Common\Managers\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="EndMenuScreen.h">
+      <Filter>Game\Common\Menu\MenuScreens\EndMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

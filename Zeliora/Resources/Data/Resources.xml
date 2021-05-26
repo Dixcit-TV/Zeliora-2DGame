@@ -1,0 +1,21 @@
+<SpriteSheets>
+	<SpriteSheet Path="Heroes/Heroes.png" Columns="9" Rows="8"/>
+	<SpriteSheet Path="Enemies/Guards.png" Columns="12" Rows="8"/>
+	<SpriteSheet Path="Enemies/Witches.png" Columns="12" Rows="4"/>
+	<SpriteSheet Path="WorldObjects/Destructibles.png" Columns="5" Rows="9"/>
+	<SpriteSheet Path="WorldObjects/WorldTileset.png" Columns="8" Rows="16"/>
+	<SpriteSheet Path="Misc/Particules.png" Columns="7" Rows="6"/>
+	<SpriteSheet Path="Armors/Armors.png" Columns="10" Rows="3"/>
+	<SpriteSheet Path="Weapons/Weapons.png" Columns="10" Rows="5"/>
+</SpriteSheets>
+
+<Sounds>
+	<SoundEfects>
+		<SoundEffect Path="Effects/Hit.wav" Name="AttackHit" />
+		<SoundEffect Path="Effects/NavigateMenu.wav" Name="MenuNavigation" />
+	</SoundEfects>
+	<Musics>
+		<Music Path="Musics/Menu.ogg" Name="MenuTheme"/>
+		<Music Path="Musics/Dungeon.ogg" Name="DungeonTheme"/>
+	</Musics>
+</Sounds>
