@@ -1,6 +1,7 @@
 # Zeliora-2DGame
 2D game created as my end of year project during my c++ programming course.
 
+![2021-05-26 12_18_38-Project Zeliora - Vincent, Thomas - 1DAE11](https://user-images.githubusercontent.com/76394390/119651073-df563100-be24-11eb-965f-f45752f08891.png)
 
 At the end of my first year as a Game Development student at Howest Digital Art and Entertainment (Belgium), for our C++ programming course, we were tasked to (re)create a level or 2 from of a childhood 2D games or make our own. 
 
