@@ -26,6 +26,7 @@ I encountered one major issue, and that was that sometimes, due to their boundin
 
 # Other topics
 - The point of the assignment was for us to use the different topics seen in class within a project (rule fo 3/5, inheritance amnd polymorphism, std algorithm, load and display textures and sprite, sounds and text).
+- Load game data (player characters and enemy info, items, spritesheet, etc...) from simple XML files.
 - I played around with multiple types of enemies with their own behaviors:
             - Guard: follow the player, melee attacks
             - Witch: follow the player, range attacks, flee if the player come too close
