@@ -29,7 +29,11 @@ I encountered one major issue, and that was that sometimes, due to their boundin
 - I played around with multiple types of enemies with their own behaviors:
             - Guard: follow the player, melee attacks
             - Witch: follow the player, range attacks, flee if the player come too close
-
+- Adding some procedurally positionned items to populate the dungeons such as destructible pots and boxes. Due to time constraint I had to settle with placing them in a pattern in the corner of rooms. It's not that bad but not ideal.
+- Inventory system: Building a small inventory system in which the player stores the different armor, weapon and items they collect. The player can then equip them to improve their stats.
+- Level system, difficulty scaling and stats: To be fair this was added for the sake of being there, the player can level up, a multiplier based on the player level increases enemy stats (only when they respawn) and equiped weapons affects the damage the player deals but it's far from balanced; 2-3 levels you are close unkilable.
+Let's say it was more to explore the concept than having the ability to make it work decently.
+- Oh yeah spawners; each dungeon rooms get a spawner or too which maintain it's population and perform respawn of enemies based on a respawn time, max enemy spawned count and a spawn radius.
 
 # Resources
 - Tiny Keep Dungeon generation [Tiny Keep](https://www.gamasutra.com/blogs/AAdonaac/20150903/252889/Procedural_Dungeon_Generation_Algorithm.php)
