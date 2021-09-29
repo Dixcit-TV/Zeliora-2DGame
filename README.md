@@ -3,6 +3,8 @@
 
 ![2021-05-26 12_18_38-Project Zeliora - Vincent, Thomas - 1DAE11](https://user-images.githubusercontent.com/76394390/119651073-df563100-be24-11eb-965f-f45752f08891.png)
 
+[![Zeliora video](https://yt-embed.herokuapp.com/embed?v=0wWv5L27KGM)](https://www.youtube.com/watch?v=0wWv5L27KGM)
+
 At the end of my first year as a Game Development student at Howest Digital Art and Entertainment (Belgium), for our C++ programming course, we were tasked to (re)create a level or 2 from of a childhood 2D games or make our own. 
 
 I decided to create a small dungeon crawler game build on top of a grid. The motivation behind it was to experiment with procedural 2D dungeon generation as it was something I had in the back of my mind  and was curious about. 
