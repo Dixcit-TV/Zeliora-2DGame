@@ -42,6 +42,8 @@ void Game::Initialize( )
 	m_Menus.emplace(MenuType::endMenu, Menu{ MenuType::endMenu, &m_GameState, &m_pPlayer });
 
 	m_Menus.find(m_CurrentMenu)->second.Load();
+
+	PrintInfo();
 }
 
 void Game::Cleanup( )
